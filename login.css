@@ -1,0 +1,96 @@
+.login {
+  background-color: white;
+  margin-top: 9%;
+  border-radius: 10px;
+  margin-bottom: 90px;
+}
+
+.btn {
+  background-color: #000080;
+  color: white;
+  border-radius: 30px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.b {
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(116, 116, 116);
+  margin-top: 30px;
+}
+
+.fas {
+  margin-right: 20px;
+}
+
+.b:hover {
+  color: rgb(59, 59, 59);
+}
+
+.btn:hover {
+  background-color: #0000aa;
+  color: white;
+  box-shadow: 5px 5px 20px 0px #0058b686;
+}
+
+.jpg {
+  width: 100%;
+  border-radius: 10px 0 0 10px;
+}
+
+.fm {
+  margin: 40px;
+}
+
+.body {
+  background: linear-gradient(45deg, #6ac1c5, #bda5ff) no-repeat;
+  height: 60rem;
+}
+
+.l {
+  background-color: rgb(235, 235, 235);
+  border: none;
+  border-radius: 30px;
+}
+
+.second {
+  padding: 70px;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .second {
+    padding: 0;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center;
+  }
+
+  .jpg {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .jpg {
+    margin-top: 65px;
+    margin-bottom: 65px;
+    margin-left: 10px;
+    border-radius: 10px 10px 10px 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .jpg {
+    display: none;
+  }
+}
